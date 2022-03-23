@@ -1,0 +1,463 @@
+
+/* SECTION 2 */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    
+    
+}
+
+
+div.displaypage {
+    
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.281);
+    width: 100%;
+    height: 80px;
+    margin-left: -100px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: black;
+    padding-left: 40px;
+    padding-right: 60px;
+    
+}
+div.topbg{
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.281);
+    width: 100%;
+    height: 80px;
+    margin-left: -100px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-right: 60px;
+    padding-top: 50px;
+}
+div.center-text-display {
+    
+    background-color: rgba(0, 0, 0, 0.281);
+    width: 80%;
+    margin-top: -200px;
+    
+    box-shadow: 2px 2px 15px rgba(136, 136, 136, 0.3);
+    color: rgb(214, 214, 214);
+    padding-left: 40px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    
+    align-self: center;
+    top: 500px;
+}
+
+div.center-text-header {
+    width: 80%;
+    margin-left: 0px;
+    color: rgb(214, 214, 214);
+    padding-left: 40px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    align-self: center;
+    top: 500px;
+}
+
+/*------- HOME / CONTACT -------*/
+/*Format*/
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 12px;
+    
+    padding-right: 30px;
+    position: relative;
+    
+    }
+    .nav-links ul li a{
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 20px;
+        
+    }
+    /*
+    .logo_area{
+        height: 10px;
+        opacity: 20%;
+        position: absolute; left: 380px; top: 30%; content: ''; margin-left: -130px;
+    }*/
+
+    /*Logo*/
+nav img{
+    width: 180px;   
+    position: absolute; left: 780px; top: 1%; content: ''; margin-left: -130px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    
+    
+}
+    
+    /*------- HOVER EFFECTS OVER LINKS (HOME/CONTACT) -------*/
+    .nav-links ul li::after{
+        content: '';
+        width: 0%;     /*hide underline*/
+        height: 2px;
+        background-color: rgb(255, 63, 29);
+        display: block;
+        margin: auto;
+        transition: 0.2s;
+    }
+    .nav-links ul li:hover::after{
+        width: 100%; /*show underline*/
+    }
+    
+
+
+/*------- CENTER TEXTS -------*/
+/* Center Text FMB */
+.center-text-header h1{
+    font-size: 48px;
+    width: 80%;
+    color: aliceblue;
+    position: absolute;
+    top: 140px;
+    left: 130px;  
+    text-align: center;
+}
+.center-text-header p1{
+    /*margin: 10px 0 60px;*/
+    font-size: 26px;
+    width: 80%;
+    color: aliceblue;
+    position: absolute;
+    top: 200px;
+    left: 575px;  
+
+    color: floralwhite;
+}
+
+
+/*------- BG IMAGE -------*/
+/*
+.header_R{
+    min-height:100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bg6.png);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+
+/*Logo*/
+/*
+.logoR{
+    width: 180px;   
+    position: absolute; left: -25%; top: 1%; content: ''; margin-left: -130px;
+}
+*/
+
+.register{
+    /*
+    border: 4px;
+    border-style: inset;
+    border-color: aliceblue;
+    */
+    
+
+    min-height:100vh;
+    width: 100%;
+    text-align: center;
+    
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+
+
+
+
+
+
+
+
+/* SECTION 2 */
+
+
+/*------- BG IMAGE -------*/
+.header_R{
+    min-height:100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bg6.png);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+
+/*Logo*/
+.logoR{
+    width: 180px;   
+    position: absolute; left: -25%; top: 1%; content: ''; margin-left: -130px;
+}
+
+.register{
+    /*
+    border: 4px;
+    border-style: inset;
+    border-color: aliceblue;
+    */
+    
+
+    min-height:100vh;
+    width: 100%;
+    text-align: center;
+    
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+
+
+
+
+/* Signup Box */
+.header_R{
+    
+    width: 100%;
+    padding-bottom: 650px;
+    background-position: center;
+    background-size: cover;
+    
+    margin-bottom: 0;
+}
+
+
+
+.register-box {
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    top: 80%;
+    
+    font-family: 'Lato', sans-serif;
+    background-image: azure;
+    margin-left: 60px;
+    margin-bottom: 0px;
+}
+h3 {
+    width: 100%;
+    padding-left: 580px;
+    padding-top: 100px;
+    font-family: 'Lato', sans-serif;
+    font: 300;
+    font-size: 46px;
+    color: aliceblue;
+    
+
+}
+
+
+
+
+.center-text h4{
+    font-size: 42px;
+}
+
+
+h4 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font: 100;
+    font-size: 40px;
+    padding-top: 15px;
+    color: aliceblue;
+}
+form {
+    width: 90%;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+    
+}
+form label {
+    display: flex;
+    
+    font-family: 'Lato', sans-serif;
+    margin-top: 15px;
+    font-size: 24px;
+    color: aliceblue;
+}
+div.user_details {
+    
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.281);
+    width: 80%;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: black;
+    font-size: 30px;
+    /*
+    padding-left: 40px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 25px;  */
+}
+
+form select{
+    width: 104%;
+    font-family: 'Lato', sans-serif;
+    height: 40px;
+    font-size: 18px;
+    padding: 7px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border: 1px solid aqua;
+    border-radius: 6px;
+    outline: none;
+
+
+/*
+    padding: 7px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border: 1px solid aqua;
+    border-radius: 6px;
+    outline: none;
+    */
+}
+form input{
+    width: 100%;
+    height: 22px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    padding: 7px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border: 1px solid aqua;
+    border-radius: 6px;
+    outline: none;
+    margin: 0;
+}
+
+textarea{
+    width: 100%;
+    height: 80px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    padding: 7px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border: 1px solid aqua;
+    border-radius: 6px;
+    outline: none;
+    margin: 0;
+}
+
+
+input[type="button1"]{
+    width: 300px;
+    text-align: center;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    color: rgb(6, 0, 94);
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+
+
+/*------- BUTTON -------*/
+/* Button for filling out the form */
+.hero-btn2{
+    display: inline-block;
+    text-decoration: none;
+    color: snow;
+    border: 1px solid snow;
+    border-radius: 20px;
+    padding: 12px 34px;
+    font-size: 23px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    left: 55px;
+    padding-left: 105px;
+    padding-right: 105px;
+    text-align: center;
+}
+.reset-hero-btn2{
+    display: inline-block;
+    text-decoration: none;
+    color: snow;
+    border: 1px solid snow;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+    left: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    margin-left: 124px;
+    margin-top: 15px;
+}
+/* Hover Effect Over Button */
+.hero-btn2:hover{
+    border: 1px solid snow;
+    border-radius: 20px;
+    background-color: rgba(30, 255, 0, 0.884);
+    transition: 1s;
+}
+.reset-hero-btn2:hover{
+    border: 1px solid snow;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.884);
+    transition: 1s;
+}
+
+.register-box h3{
+        font-size: 48px;
+        width: 80%;
+        color: aliceblue;
+        position: absolute;
+        top: 30%;
+        left: 80px;  
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+}
+.logo_area_R{
+    height: 10px;
+    width: 0px;  
+    opacity: 20%;
+    position: absolute; left: 380px; top: 30%; content: ''; margin-left: -130px;
+}
+
+
+
+
+
+
+
+
+.text-footer_2{
+    background-image: linear-gradient(rgba(54, 54, 54, 0.918),rgba(12, 12, 12, 0.884));
+    text-align: center;
+    padding: 30px 0;
+    padding-bottom: 20px;
+    font-family: 'ubantu',sans-serif;
+    display: flex;
+    justify-content: center;
+    
+    position: relative;
+}
+
+
+
+/*Pranav ....end*/

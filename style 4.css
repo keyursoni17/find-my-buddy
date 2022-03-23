@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+.header_display{
+    min-height:100vh;
+    width: 100%;
+    background-image: /*linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),*/url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+
+
+div.displaypage {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.281);
+    width: 100%;
+    height: 80px;
+    margin-left: -100px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: black;
+    padding-left: 40px;
+    padding-right: 60px;
+    
+}
+div.topbg{
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.281);
+    width: 100%;
+    height: 80px;
+    margin-left: -100px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-right: 60px;
+    padding-top: 50px;
+}
+div.center-text-display {
+    
+    background-color: rgba(0, 0, 0, 0.281);
+    width: 80%;
+    margin-top: -200px;
+    
+    box-shadow: 2px 2px 15px rgba(136, 136, 136, 0.3);
+    color: rgb(214, 214, 214);
+    padding-left: 40px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    
+    align-self: center;
+    top: 500px;
+}
+
+div.center-text-header {
+    width: 80%;
+    margin-left: 0px;
+    color: rgb(214, 214, 214);
+    padding-left: 40px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    align-self: center;
+    top: 500px;
+}
+
+/*------- HOME / CONTACT -------*/
+/*Format*/
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 12px;
+    
+    padding-right: 30px;
+    position: relative;
+    
+    }
+    .nav-links ul li a{
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 20px;
+        
+    }
+    /*
+    .logo_area{
+        height: 10px;
+        opacity: 20%;
+        position: absolute; left: 380px; top: 30%; content: ''; margin-left: -130px;
+    }*/
+
+    /*Logo*/
+nav img{
+    width: 180px;   
+    position: absolute; left: 780px; top: 1%; content: ''; margin-left: -130px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    
+    
+}
+    
+    /*------- HOVER EFFECTS OVER LINKS (HOME/CONTACT) -------*/
+    .nav-links ul li::after{
+        content: '';
+        width: 0%;     /*hide underline*/
+        height: 2px;
+        background-color: rgb(255, 63, 29);
+        display: block;
+        margin: auto;
+        transition: 0.2s;
+    }
+    .nav-links ul li:hover::after{
+        width: 100%; /*show underline*/
+    }
+    
+
+
+/*------- CENTER TEXTS -------*/
+/* Center Text FMB */
+.center-text-header h1{
+    font-size: 48px;
+    width: 80%;
+    color: aliceblue;
+    position: absolute;
+    top: 140px;
+    left: 130px;  
+    text-align: center;
+}
+.center-text-header p1{
+    /*margin: 10px 0 60px;*/
+    font-size: 26px;
+    width: 80%;
+    color: aliceblue;
+    position: absolute;
+    top: 200px;
+    left: 575px;  
+
+    color: floralwhite;
+}
+
+
+/*Center Text Format*/
+.center-text-display{
+    width: 80%;
+    color: aliceblue;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+
+.text-footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.568),rgba(0, 0, 0, 0.568)),url(images/banner.png);;
+    text-align: center;
+    padding: 20px 0;
+    padding-bottom: 20px;
+    font-family: 'ubantu',sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin-top: 800px;
+    
+    position: relative;
+}
+
+
+
+
+
+/* --- DISPLAY DATA --- */
+
+
+
+
+
+
+.display{
+    border-collapse: collapse;
+    
+    
+    
+    background-color: turquoise;
+}
+.display, th, td {
+    border: 1px solid rgb(165, 165, 165);
+    padding: 10px;
+    padding-left: 20px;
+    
+        
+}
+.th{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'lato', sans-serif;
+    color: aquamarine;
+}
+
